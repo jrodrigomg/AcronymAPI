@@ -52,4 +52,12 @@ Para probar los métodos PUT y DELETE se creó un endpoint para crear los JSON W
 En la carpeta de testing se tiene automatizado el envío del header Authorization para 
 no tener que hacerlo manual, sólo se tendría que ver la url correcta.
 
+El esquema de la base de datos es **name** donde éste corresponde al acrónimo y **description**
+corresponde a la definición. Para el método POST podría testearse con [curl](https://curl.haxx.se/)
+con el siguiente comando:
+
+```
+curl -X POST -H "Content-Type:application/json" -d '{"name":"TOMATE", "description":"Ve a traer tomates"}' "http://localhost:3002/acronym"
+
+```
 
