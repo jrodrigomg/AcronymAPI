@@ -1,0 +1,19 @@
+{
+  "name": "acronym_api",
+  "version": "1.0.0",
+  "description": "Acronym API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "helmet": "^4.1.0",
+    "mongoose": "^5.10.4",
+    "mongoose-fuzzy-searching": "^1.3.1",
+    "mongoose-paginate-v2": "^1.3.9"
+  }
+}
