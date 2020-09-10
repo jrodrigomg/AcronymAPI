@@ -43,6 +43,7 @@ Debes tener actualmente instalado:
     pm2 start
 
 ```
+5. El servidor está arriba! Debería de desplegar un mensaje en http://localhost:3002
 
 
 ## Nota
