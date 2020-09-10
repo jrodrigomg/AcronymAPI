@@ -1,6 +1,6 @@
-#ACRONYM API
+# ACRONYM API
 
-##Requerimientos
+## Requerimientos
 
 Debes tener actualmente instalado:
 * nodejs
@@ -9,7 +9,7 @@ Debes tener actualmente instalado:
 * pm2
 
 
-##Instalación
+## Instalación
 
 1. Instala las dependencias locales del proyecto de node:
 
@@ -45,7 +45,7 @@ Debes tener actualmente instalado:
 ```
 
 
-##Nota
+## Nota
 
 Para probar los métodos PUT y DELETE se creó un endpoint para crear los JSON Web Token. 
 En la carpeta de testing se tiene automatizado el envío del header Authorization para 
